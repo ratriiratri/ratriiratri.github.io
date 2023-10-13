@@ -924,74 +924,48 @@
             </div>
             </section>
 
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contact me</h2>
-            <span class="section__subtitle">Get in touch</span>
-
-            <div class="contact__container container grid">
-                <div>
-                    <div class="contact__information">
-                        <i class="uil uil-phone-alt contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Call me</h3>
-                            <span class="contatc__subtitle">(+62) 899-318-0605</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">E-mail</h3>
-                            <span class="contatc__subtitle">ratriiratri@gmail.com</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contatc__subtitle">Bekasi, Indonesia</span>
-                        </div>
-                    </div>
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact me</h2>
+        <span class="section__subtitle">Get in touch</span>
+    
+        <div class="contact__container container grid">
+            <!-- Remaining content -->
+        </div>
+    
+        <form action="https://formspree.io/f/xvojdrbp" method="POST" class="contact__form grid">
+            <div class="contact__inputs grid">
+                <div class="contact__content">
+                    <label for="" class="contact__label">Name</label>
+                    <input type="text" class="contact__input" name="name">
                 </div>
-
-                <form action="" class="contact__form grid">
-                    <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
-                        </div>
-                    </div>
-
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
-                    </div>
-
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                    </div>
-
-                    <div>
-                        <a href="#" class="button button--flex">
-                            Send message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
-                </form>
+    
+                <div class="contact__content">
+                    <label for="" class="contact__label">E-mail</label>
+                    <input type="email" class="contact__input" name="email">
+                </div>
             </div>
+    
+            <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="text" class="contact__input" name="project">
+            </div>
+    
+            <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+            </div>
+    
+            <div>
+                <button type="submit" class="button button--flex">
+                    Send message
+                    <i class="uil uil-message button__icon"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    </section>
 
-        </section>
     </main>
 
     <!--==================== FOOTER ====================-->
