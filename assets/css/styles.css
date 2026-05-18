@@ -645,6 +645,18 @@ img {
     transition: .3s;
 }
 
+.services__modal-content {
+    position: relative;
+    background-color: var(--container-color); /* Sesuaikan dengan variabel warna webmu */
+    padding: 1.5rem;
+    border-radius: .5rem;
+    
+    /* --- SCRIPT FIX SCROLLBAR --- */
+    max-height: 80vh;          /* Membatasi tinggi modal maksimal 80% dari tinggi layar */
+    overflow-y: auto;          /* Otomatis memunculkan scrollbar vertikal jika konten melebihi max-height */
+    scrollbar-width: thin;     /* Membuat scrollbar bawaan browser terlihat lebih tipis & rapi */
+}
+
 .services__content:hover {
     box-shadow: 0 4px 8px rgba(0,0,0, .30)
 }
